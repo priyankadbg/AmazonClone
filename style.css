@@ -178,9 +178,52 @@ nav{
     margin-top: 10px;
 }
 .product-slider .products img{
-    max-width: 200px;
+    max-width: 20px;
     max-height: 200;
 }
 .product-slider .products::-webkit-scrollbar{
     display: none;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background: #fbfbfb;
+}
+.product-card img{
+    width: 110px;
+    margin: 0 50px;
+}
+.product-offer p{
+    background: #be0b3b;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 8px 0;
+    font-size: 13px;
+
+}
+.product-offer span{
+    color: #be0b3b;
+    font-weight: 500;
+    font-size: 12px;
+}
+.product-price{
+    color: grey;
+    font-size: 13px;
+}
+.product-price h4{
+    color: #525252;
+    font-size: 15px;
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #131921;
+    padding: 20px 60px;
 }
